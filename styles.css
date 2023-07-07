@@ -1,0 +1,74 @@
+#flex{
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    margin: 2em auto 5em;
+    padding: 0 3% 2em ;
+    max-width: fit-content;
+    max-height:fit-content ;
+    border-radius: 40px;
+    border: 2px solid #4184f3;
+    background-color: #fbfbfb;
+    color: black;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5em 0;
+}
+table{
+    margin:auto;
+    /* border-radius: 10px; */
+    border-collapse: collapse;
+    color: black;
+    background-color: #fbfbfb;
+}
+td{
+    text-align: center;
+    border-radius: 100px;
+    border: 3px solid orange;
+    width:50px;
+    height: 40px;
+}
+
+.number{
+    font-size: larger;
+}
+
+#chart {
+    color: white;
+    margin: 2em auto 0;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: fit-content;
+    padding: 25px 40px;
+    background-color: #4184f3;
+    border-radius: 10px;
+}
+
+.collapsible{
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    margin-top: 3em auto 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.collapsible:hover{
+    color:white;
+    background-color: grey;
+}
+.rules-list{
+    display: none;
+    margin-top: 3em auto 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 40em;
+}
