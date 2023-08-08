@@ -62,13 +62,13 @@ td{
     font-family: 'Roboto', sans-serif;
 }
 .collapsible:hover{
-    color:white;
+    color:black;
     background-color: grey;
 }
 .rules-list{
     display: none;
     margin-top: 3em auto 0;
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     width: 40em;
 }
